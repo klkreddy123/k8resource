@@ -6,7 +6,6 @@ spec:
   containers:
     - image: nginx
       name: nginx
-      containerport: 80
     - image: almalinux
       name: sidecar
       command: ["sleep" , "200"]
